@@ -1,21 +1,21 @@
 fileFormatVersion: 2
 guid: b91fa29994a76b242b9da58058675da2
-timeCreated: 1523539562
+timeCreated: 1523885426
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: spritesheet_0
-    21300002: spritesheet_3
-    21300004: spritesheet_4
-    21300006: spritesheet_5
+    21300000: armUpR
+    21300002: armUpL
+    21300004: armLowR
+    21300006: hand_RT
     21300008: Head
-    21300010: spritesheet_7
+    21300010: hand_RB
     21300012: spritesheet_8
-    21300014: spritesheet_9
-    21300016: spritesheet_11
+    21300014: hand_RA
+    21300016: armLowL
     21300018: Sword
     21300020: Body
-    21300022: spritesheet_17
+    21300022: handL
     21300024: spritesheet_18
     21300026: Thigh_R
     21300028: Thigh_L
@@ -108,7 +108,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spritesheet_0
+      name: armUpR
       rect:
         serializedVersion: 2
         x: 278
@@ -122,7 +122,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet_3
+      name: armUpL
       rect:
         serializedVersion: 2
         x: 966
@@ -136,10 +136,10 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet_4
+      name: armLowR
       rect:
         serializedVersion: 2
-        x: 71
+        x: 73
         y: 1536
         width: 142
         height: 125
@@ -150,7 +150,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet_5
+      name: hand_RT
       rect:
         serializedVersion: 2
         x: 411
@@ -178,11 +178,11 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet_7
+      name: hand_RB
       rect:
         serializedVersion: 2
         x: 473
-        y: 1509
+        y: 1513
         width: 91
         height: 59
       alignment: 0
@@ -192,7 +192,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet_9
+      name: hand_RA
       rect:
         serializedVersion: 2
         x: 17
@@ -206,7 +206,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet_11
+      name: armLowL
       rect:
         serializedVersion: 2
         x: 934
@@ -248,7 +248,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: spritesheet_17
+      name: handL
       rect:
         serializedVersion: 2
         x: 987
