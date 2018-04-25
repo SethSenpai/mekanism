@@ -8,14 +8,25 @@ public class HandControll : MonoBehaviour {
     public bool leftHand = false;
     public float multiplier = 5;
     public float maxDistance = 1;
+    public GameObject RootObject;
+    private Vector3 rootPostition;
 
     // Use this for initialization
     void Start () {
         savedPos = transform.position;
+        rootPostition = RootObject.transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+        Vector3 xOffset = new Vector3(0, 0, 0);
+
+        if(rootPostition != RootObject.transform.position)
+        {
+            xOffset = RootObject.transform.position - rootPostition;
+            rootPostition = RootObject.transform.position;
+            savedPos = savedPos + xOffset;
+        }
 
         if (leftHand)
         {
