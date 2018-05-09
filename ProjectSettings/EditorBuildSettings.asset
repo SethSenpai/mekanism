@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/fistTest.unity
     guid: 6dc6d1c476c51904ba3961f840cec87f
+  - enabled: 1
+    path: Assets/swordTest2.unity
+    guid: 87240b93e5997384eb985533b05fdba4

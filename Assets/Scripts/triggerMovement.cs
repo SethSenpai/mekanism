@@ -21,12 +21,12 @@ public class triggerMovement : MonoBehaviour {
         float r = Input.GetAxis("TriggerRight");
         if (l > 0)
         {
-            this.transform.position = this.transform.position - new Vector3(l * speed * Time.deltaTime,0,0);
+            this.transform.position = this.transform.position - new Vector3(Mathf.Pow(l * 10, speed) * Time.deltaTime,0,0);
         }
 
         if(r > 0)
         {
-            this.transform.position = this.transform.position + new Vector3(r * speed * Time.deltaTime, 0, 0);
+            this.transform.position = this.transform.position + new Vector3(Mathf.Pow(r * 10, speed) * Time.deltaTime, 0, 0);
         }
     }
 }

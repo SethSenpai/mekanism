@@ -14,5 +14,6 @@ public class TwoHandTracker : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         this.transform.position = otherHand.transform.position;
+        this.transform.rotation = otherHand.transform.rotation;
 	}
 }

@@ -22,5 +22,10 @@ public class sceneControll : MonoBehaviour {
             Debug.Log("loading Sword Test");
             SceneManager.LoadScene("swordTest");
         }
+        if (Input.GetKeyUp("3"))
+        {
+            Debug.Log("loading Sword Test 2");
+            SceneManager.LoadScene("swordTest2");
+        }
     }
 }
